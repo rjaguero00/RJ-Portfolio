@@ -1,6 +1,61 @@
 /*
     DEMO STYLE
 */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    /* display: none; Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+
+
+
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 
 .jumbotron{
@@ -9,11 +64,12 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white; 
-    height: 500px;
+    height: 600px;
     text-align: center;
     font: bold 52px;
     font-family: 'Ruda', sans-serif;
     margin-bottom: 100px;
+    border-radius: 0px;
     /* text-shadow: 1px 1px #fe4902, 
                  2px 2px #fe4902, 
                  3px 3px #fe4902; */
@@ -30,6 +86,7 @@
 }
 
 
+
 .home {
     margin-top: 100px;
 }
@@ -39,7 +96,7 @@
     margin-left: 13px 
 }
 
-img {
+.socialmedia {
     width: 20%;
     /* margin-top: 100px; */
 }
@@ -76,23 +133,8 @@ h1.RJ{
                               6px 6px #970909;
 }
 
-.beer{
-    margin-left: 45px;
-    width: 45%
-}
 
-.burger{
-    width: 45%;
-}
 
-.gif{
-    margin-left: 45px;
-    width: 45%
-}
-
-.image {
-    width: 50;
-}
 .button {
     width: 115px;
     height: 40px;
@@ -258,7 +300,7 @@ a.article, a.article:hover {
 ----------------------------------------------------- */
 #content {
     width: calc(100% - 250px);
-    padding: 40px;
+    /* padding: 40px; */
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
