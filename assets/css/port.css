@@ -8,7 +8,10 @@
 Portfolio Imgs
 */
 
-
+h4 {
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
 .port-img {
     position:relative;
 }
@@ -56,6 +59,7 @@ Portfolio Imgs
 h1 {
     font-size: 50px;
     word-break: break-all;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .row {
@@ -115,7 +119,8 @@ h1 {
     height: 600px;
     text-align: center;
     font: bold 52px;
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Ruda', sans-serif; */
     margin-bottom: 100px;
     border-radius: 0px;
     /* text-shadow: 1px 1px #fe4902, 
@@ -219,6 +224,7 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
+    padding: 10px;
 }
 
 a, a:hover, a:focus {
@@ -262,6 +268,7 @@ a, a:hover, a:focus {
     background: rgb(0, 0, 0);
     color: #fff;
     transition: all 0.3s;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #sidebar.active {
@@ -360,6 +367,17 @@ a.article, a.article:hover {
 }
 
 
+
+
+
+
+.left, .center, .right {
+    margin-left: 60px;
+    float: left;
+    margin-right: 40px;
+}
+
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -380,3 +398,4 @@ a.article, a.article:hover {
         display: none;
     }
 }
+
