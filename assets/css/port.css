@@ -166,8 +166,11 @@ h1.hello{
     color: rgb(253, 253, 253);
 }
 
-h1.am {
-    position: relative; 
+p.am {
+    position: relative;
+    font-family: 'Source Code Pro', monospace; 
+    color: white;
+    font-size: 50px;
     top: -3px; 
     left: -3px; 
     text-shadow: 1px 1px #970909, 
