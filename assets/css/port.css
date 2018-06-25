@@ -199,6 +199,9 @@ h1.RJ{
     width: 115px;
     height: 40px;
     margin-top: 20px; 
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #your-name {
